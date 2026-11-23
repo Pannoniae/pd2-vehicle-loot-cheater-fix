@@ -1,0 +1,9 @@
+{
+	"name": "Vehicle Loot Cheater Fix",
+	"description": "Fixes players (host included) being flagged as bag cheaters when throwing loot taken out of a vehicle. Only does anything on the host.",
+	"author": "Pannoniae",
+	"version": "1.0.0",
+	"hooks": [
+		{ "hook_id": "lib/units/vehicles/vehicledrivingext", "script_path": "fix.lua" }
+	]
+}
